@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px ;
+}
+#bg{
+    background-image: url(../assets/Hero-bg.png) ;
+    /* Hero-bg */
+position: absolute;
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+    /* width: 1920px;
+    height: 773px;
+    background-position: center; */
+}
+.banner{
+    /* Frame 4 */
+position: absolute;
+width: 998px;
+height: 582px;
+left: 221px;
+right: 221px;
+top: 99px;
+bottom: 4506px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+    /* padding-top: 50px;
+    width:500px;
+    margin: 0 auto;
+    background-color: black; */
+}
