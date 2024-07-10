@@ -81,7 +81,7 @@ background: rgb(13, 19, 33);
     /* Frame 13 */
 position: absolute;
 width: 1000px;
-height:800px;
+height: 1200px;
 left: 100px;
 right: 152px;
 top: 857px;
@@ -106,6 +106,7 @@ background-color: rgba(13, 19, 33, 0.02);
     display: flex;
     background-color: rgba(13, 19, 33, 0.02);
     padding: 48px;
+    margin-bottom: 32px;
 }
 .head{
     padding-bottom: 48px;
@@ -119,6 +120,10 @@ background-color: rgba(13, 19, 33, 0.02);
     text-align: left;
 
 }
+.btn1{
+    width: 150px;
+    height: 48px;
+}
 .chart01-content2{
     padding-bottom: 32px;
     font-size: 16px;
@@ -126,4 +131,19 @@ background-color: rgba(13, 19, 33, 0.02);
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+}
+#frame2{
+    display: flex;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 48px;
+    margin-bottom: 32px;
+}
+.youtube{
+    position: absolute;
+    width: 1140px;
+    height: 777px;
+    left: 148px;
+    right: 152px;
+    top: 2340px;
+    bottom: 2128px;
 }
